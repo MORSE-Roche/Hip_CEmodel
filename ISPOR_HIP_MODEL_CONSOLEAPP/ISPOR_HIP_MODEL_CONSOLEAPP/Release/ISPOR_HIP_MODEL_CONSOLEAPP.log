@@ -1,0 +1,24 @@
+﻿Build started 29.05.2014 10:06:25.
+     1>Project "\\rbamvgf10\u_khorshim$\my documents\visual studio 2012\Projects\ISPOR_HIP_MODEL_CONSOLEAPP\ISPOR_HIP_MODEL_CONSOLEAPP\ISPOR_HIP_MODEL_CONSOLEAPP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IU:\GSL_build\INSTALL /nologo /W3 /WX- /sdl /Ox /Ob2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CEModel.cpp ISPOR_HIP_MODEL_CONSOLEAPP.cpp ModelInput.cpp ModelOutcome.cpp StochasticParameters.cpp
+         CEModel.cpp
+         ISPOR_HIP_MODEL_CONSOLEAPP.cpp
+         ModelInput.cpp
+         ModelOutcome.cpp
+         StochasticParameters.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\rbamvgf10\u_khorshim$\my documents\visual studio 2012\Projects\ISPOR_HIP_MODEL_CONSOLEAPP\Release\ISPOR_HIP_MODEL_CONSOLEAPP.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:U:\GSL_build\INSTALL\lib\Win32\Release gsl.lib cblas.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\rbamvgf10\u_khorshim$\my documents\visual studio 2012\Projects\ISPOR_HIP_MODEL_CONSOLEAPP\Release\ISPOR_HIP_MODEL_CONSOLEAPP.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\rbamvgf10\u_khorshim$\my documents\visual studio 2012\Projects\ISPOR_HIP_MODEL_CONSOLEAPP\Release\ISPOR_HIP_MODEL_CONSOLEAPP.lib" /MACHINE:X86 /SAFESEH Release\CEModel.obj
+         Release\ISPOR_HIP_MODEL_CONSOLEAPP.obj
+         Release\ModelInput.obj
+         Release\ModelOutcome.obj
+         Release\StochasticParameters.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         ISPOR_HIP_MODEL_CONSOLEAPP.vcxproj -> \\rbamvgf10\u_khorshim$\my documents\visual studio 2012\Projects\ISPOR_HIP_MODEL_CONSOLEAPP\Release\ISPOR_HIP_MODEL_CONSOLEAPP.exe
+     1>Done Building Project "\\rbamvgf10\u_khorshim$\my documents\visual studio 2012\Projects\ISPOR_HIP_MODEL_CONSOLEAPP\ISPOR_HIP_MODEL_CONSOLEAPP\ISPOR_HIP_MODEL_CONSOLEAPP.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:48.53
